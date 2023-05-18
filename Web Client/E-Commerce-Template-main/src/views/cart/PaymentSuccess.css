@@ -1,0 +1,70 @@
+.payment-success {
+    font-size: 24px;
+    color: green;
+    text-align: center;
+    margin-top: 50px;
+    height: 100px;
+   
+  }
+
+  .orders {
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 500px;
+   
+  }
+
+
+  .orderlist {
+    margin-top: 20px;
+    height: 500px;
+   
+  }
+  .payment-Fail {
+    font-size: 24px;
+    color: rgb(245, 65, 11);
+    text-align: center;
+    margin-top: 50px;
+    height: 400px;
+   
+  }
+
+
+  .payment-success {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  
+  }
+  
+  .payment-info {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .payment-info h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .payment-info p {
+    margin-bottom: 8px;
+  }
+  
+  .payment-info .label {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .payment-info .value {
+    font-weight: normal;
+  }

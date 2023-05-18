@@ -1,0 +1,83 @@
+/* style.css */
+
+/* Sắp xếp các thành phần trên một hàng */
+
+  
+  /* Căn chỉnh DatePicker vào giữa */
+  .react-datepicker-wrapper {
+    margin: 0 10px;
+  }
+  
+  /* Thiết lập kích thước và vị trí cho dialog */
+  .react-datepicker__portal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Thiết lập kích thước cho dialog */
+  .react-datepicker__triangle,
+  .react-datepicker__header {
+    font-size: 16px;
+  }
+  
+  .react-datepicker__month-container {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  /* Thiết lập màu sắc cho dialog */
+  .react-datepicker {
+    background-color: #fff;
+    border: 1px solid #aeaeae;
+  }
+  
+  /* Thiết lập kích thước cho nút View */
+  button {
+    margin-top: 40px;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    cursor: pointer;
+  }
+  
+
+label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
